@@ -1,4 +1,4 @@
-# blocks
+# blockserver
 
 FIXME
 

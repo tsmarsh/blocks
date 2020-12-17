@@ -1,6 +1,6 @@
-(ns blocks.validator-test
+(ns todoschema.validator-test
   (:require [clojure.test :refer :all]
-            [blocks.validator :refer :all]
+            [todoschema.validator :refer :all]
             [clojure.spec.alpha :as s]
             [cheshire.core :as c]))
 

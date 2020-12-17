@@ -1,4 +1,4 @@
-(ns blocks.validator
+(ns todoschema.validator
   (:require [clojure.spec.alpha :as s]))
 
 (s/def :owner/forename string?)
