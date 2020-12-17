@@ -6,11 +6,11 @@
 
 (deftest test-app
   (testing "good"
-    (let [json (slurp "./test-resources/good.json")
+    (let [json (slurp "../data/good.json")
           good (c/parse-string json keyword)]
       (is (s/valid? :todo/todo good)) ))
 
   (testing "bad"
-    (let [json (slurp "./test-resources/bad.json")
+    (let [json (slurp "../data/bad.json")
           bad (c/parse-string json keyword)]
       (is (= 2 (count (:clojure.spec.alpha/problems (s/explain-data :todo/todo bad))))))))
