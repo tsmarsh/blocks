@@ -1,10 +1,10 @@
 # todoschema
 
-A Clojure library designed to ... well, that part is up to you.
-
+The project contains a schema and some limited testing for that schema. 
+The idea is that this project would be predominantly maintained by more business focused team members.
 ## Usage
 
-FIXME
+This is expected to be used as a library by other services.
 
 ## License
 

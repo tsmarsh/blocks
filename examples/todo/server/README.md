@@ -1,6 +1,7 @@
 # server
 
-FIXME
+A service that pulls together the base server
+and creates a function that uses the validation to assert if the json is of the correct format.
 
 ## Prerequisites
 
